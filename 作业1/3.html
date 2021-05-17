@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单</title>
+    <style>
+        form{
+            position: relative;
+        }
+        span{
+            display: inline-block;
+            width: 100px;
+            text-align: right;
+        }
+        textarea{
+            vertical-align: top;
+        }
+        input[type="submit"] {
+            position: absolute;
+            left: 250px;
+            bottom: -30px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <span>姓名</span>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" value="Your name..."><br/>
+        <span>年龄</span>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" value="Your name..."><br/>
+        <span>学校</span>&nbsp;&nbsp;&nbsp;
+        <select style="width: 175px;">
+            <option value="zkd">中科大</option>
+            <option value="qh">清华</option>
+            <option value="bd">北大</option>
+        </select>
+        <br/>
+        <span>自我介绍</span>&nbsp;&nbsp;&nbsp;
+        <textarea cols="22" rows="10">
+            我是...
+        </textarea>
+        <br/>
+        <input type="submit" value="提交">
+    </form>
+</body>
+</html>
