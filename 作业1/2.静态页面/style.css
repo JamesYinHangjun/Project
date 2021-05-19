@@ -1,0 +1,489 @@
+p,div,span,a,ul,li,ol,h1,h2,h3,h4,dl,dt,dd,img,body,html{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%; 
+    color: #666;
+}
+/* html{
+    font-size: 62.5%; 
+    color: #666;
+} */
+.fl{float: left;}
+.fr{float: right;}
+.clear{clear: both;}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #242227;
+}
+
+/* 清除浮动 */
+.clearfix:before,.clearfix:after{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+
+.main{
+    width: 100%;
+    overflow: hidden;
+    /* background-color: pink; */
+}
+
+/* 1.logo部分 */
+.header {
+    margin: 0 auto;
+    width: 1100px;
+    overflow: hidden;
+}
+.header .logo  {
+    float: left;
+    width: 576px;
+    height: 133px;
+    background: pink;
+    background: url(./image/logo.png) no-repeat;
+}
+.header .telP{
+    float: right;
+    width: 258px;
+    height: 133px;
+    background: url(./image/tel.jpg) no-repeat;
+}
+
+
+/* 2.导航部分*/
+.nav {
+    width: 100%;
+    overflow: hidden;
+    height: 50px;
+    background-color: #005f4a;
+}
+.nav ul {
+    width: 1100px;
+    margin: 0 auto;
+}
+.nav ul li{
+    float: left;
+    width: 137px;
+    text-align: center;
+    line-height: 50px;
+    overflow: hidden;
+}
+.nav ul li a {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+}
+
+
+/* 4.menu部分 */
+.menu{
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+.menu .product {
+    width: 1100px;
+    height: 551px;
+    margin: 0 auto;
+}
+/* 左边部分 */
+.menu .product .productLeft {
+    float: left;
+    width: 222px;
+    margin-top: 60px;
+    border: 2px solid #000;
+}
+.menu .product .productLeft img {
+    height: 80px;
+    border: none;
+}
+.menu .product .productLeft ul{
+    margin: 10px 16px;
+}
+.menu .product .productLeft ul li {
+    width: 190px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+}
+.menu .product .productLeft ul li a {
+    font-size: 18px;
+    display: block;
+    text-indent: 45px;
+}
+.menu .product .productLeft ul li a:hover{
+    color: #ccc;
+}
+.menu .product .productLeft .more {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: auto;
+}
+.menu .product .productLeft .more a {
+    /* width: 192px; */
+    display: block;
+}
+.menu .product .productLeft .more a  img{
+    width: 192px;
+    height: 52px;
+}
+/* 右边部分 */
+
+.menu .productRight {
+    float: right;
+    overflow: hidden;
+    margin-top: 60px;
+    width: 830px;
+}
+.menu .productRight ul {
+    overflow: hidden;
+}
+.menu .productRight ul li {
+    float: left;
+    padding: 6px;
+    background: #005f4a;
+    margin-right: 25px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.menu .productRight ul li img{
+    width: 238px;
+    height: 186px;
+    overflow: hidden;
+
+}
+.menu .productRight ul li a:nth-child(2) {
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+}
+
+
+/* 5.关于部分 */
+.about{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 50px;
+    height: 612px;
+    background: url(./image/abcj_bg.jpg) no-repeat center;
+}
+.about .content{
+    width: 1100px;
+    margin: auto;
+    /* background: pink; */
+}
+
+/* 左边 */
+.about .content .aboutUs{
+    float: left;
+    width: 732px;
+}
+.content .aboutUs .top{
+    padding-top: 30px;
+    height: 35px;
+    border-bottom: 1px solid #333;
+}
+.content .aboutUs .top a{
+    color: #fff;
+}
+.content .aboutUs .top a:nth-child(1){
+    font-size: 20px;
+}
+.content .aboutUs .top a:nth-child(2){
+    font-size: 16px;
+}
+
+/* 左下部分 */
+.content .aboutUs .bottom{
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    line-height: 26px;
+}
+.content .aboutUs .bottom img{
+    float: left;
+    width: 278px;
+    height: 191px;
+    margin-right: 20px;
+}
+
+/* 右边 */
+.about .content .honor {
+    float: right;
+    width: 329px;
+}
+.content .honor .top{
+    padding-top: 30px;
+    height: 35px;
+    border-bottom: 1px solid #333;
+}
+.content .honor .top a{
+    color: #fff;
+    font-size: 20px;
+}
+
+/* 右下部分 */
+.content .honor .bottom {
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+}
+.content .honor .bottom img{
+    width: 239px;
+    height: 164px;
+}
+.content .honor .bottom a{
+    position: absolute;
+    top: 70px;
+    display: block;
+    width: 37px;
+    height: 45px;
+}
+.content .honor .bottom .lBtn{
+    left: 0;  
+    background: url(./image/a_11.png) no-repeat;
+}
+.content .honor .bottom .rBtn {
+    right: 0;
+    background: url(./image/a_22.png);
+}
+
+
+/* 车间展示 */
+.about .content .cj {
+    /* position: relative; */
+    margin-top: 120px;
+}
+.about .content .cj li{
+    float: left;
+    /* position: absolute; */
+    width: 190px;
+    /* display: block; */
+    margin-right: 50px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.about .content .cj li .a_cj:hover{
+    color: red;
+}
+
+
+/* 6。工程部分 */
+.main {
+    width: 100%;
+    overflow: hidden;
+}
+.main .project {
+    width: 1100px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.main .project .project_title {
+    margin-top: 45px;
+    text-align: center;
+}
+
+/* 左边 */
+.main .project .project_show .project_show_l {
+    float: left;
+    margin-top: 30px;
+}
+.main .project .project_show .project_show_l img {
+    width: 445px;
+    height: 379px;
+}
+
+/* 右边 */
+ .project .project_show .project_show_r {
+    float: right;
+    width: 630px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.project .project_show .project_show_r  ul li {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 22px;
+}
+
+.project .project_show .project_show_r  ul li img{
+    width: 196px;
+    height: 178px;
+}
+
+
+
+/* 7.新闻模块 */
+.news {
+    width: 1100px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/* 左边 */
+.news .news_Left {
+    float: left;
+    margin-top: 35px;
+    width: 320px;
+}
+.news .news_Left ul li{
+    background: url(./image/inews_list.jpg) no-repeat left;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 28px;
+}
+.news .news_Left ul li .question {
+    font-size: 20px;
+    padding-left: 40px;
+    line-height: 35px;
+    color: #000;
+}
+.news .news_Left ul li .answer {
+    padding-left: 40px;
+    line-height: 25px;
+    font-size: 12px;
+    text-indent: 2em;
+    color: #333;
+}
+
+
+/* 右边 */
+.news .news_Right {
+    float: right;
+    margin-top: 35px; 
+    width: 728px;
+}
+
+.news .news_Right .news_message {
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    height: 125px;
+}
+.news .news_Right .news_message .news_message_left {
+    margin-right: 30px;
+}
+.news .news_Right .news_message .news_message_left img {
+    width: 190px;
+    height: 130px;
+}
+
+
+.news_message .news_message_right .news_message_right_title a{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.news_message .news_message_right .news_message_right_content{
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 24px;
+}
+
+
+/* ul部分 */
+.news .news_Right .news_content {
+    margin-top: 10px;
+}
+.news .news_Right .news_content ul li{
+    border-bottom: 1px  dotted #ccc;
+    height: 32px;
+    line-height: 32px;
+}
+.news .news_Right .news_content ul li a {
+    color: #6d6d6d;
+    font-size: 14px;
+}
+.news .news_Right .news_content ul li span {
+    font-size: 14px;
+    color: #999;
+}
+
+
+/* 8.友情连接 */
+.link {
+    width: 1100px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 30px;
+    line-height: 30px;
+}
+.link h2{
+    display: inline-block;
+    color: #2160a5;
+    font-size: 18px;
+    background: url(./image/link.jpg) no-repeat left center;
+    padding-left: 35px;
+}
+.link a {
+    color: #403f3f;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+/* 9.footer部分 */
+.footer {
+    background: #005f4a;
+    height: 211px;
+}
+.footer .main {
+    width: 1100px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/* 左边 */
+.footer .main .footer_left {
+    width: 650px;
+    margin-top: 50px;
+}
+
+.footer .main .footer_left .footer_link a {
+    float: left;
+    display: block;
+    font-size: 14px;
+    color: #e6e9e8;
+    margin-right: 10px;
+    text-align: center;
+}
+.footer .main .footer_left .copyright {
+    margin-top: 30px;
+    color: #fff;
+    line-height: 32px;
+    font-size: 14px;
+}
+.footer .main .footer_left .copyright a {
+    color: #e6e9e8;
+}
+
+/* 右边 */
+.footer .main .footer_right{
+    margin-top: 50px;
+    width: 225px;
+    background: url(./image/ewm.jpg) no-repeat left center;
+    background-size: 115px;
+    height: 115px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    padding-left: 135px;
+}
+.footer .main .footer_right span {
+    color: #fff;
+    font-size: 16px;
+}
