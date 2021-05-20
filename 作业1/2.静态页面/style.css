@@ -83,6 +83,13 @@ a{
     font-size: 16px;
 }
 
+/* 3.轮播图 */
+.banner {
+    width: 100%;
+    /* overflow: hidden; */
+    height: 300px;
+    background: url(./image/banner.jpg) no-repeat center center;
+}
 
 /* 4.menu部分 */
 .menu{
@@ -128,10 +135,17 @@ a{
     padding-top: 15px;
     padding-bottom: 15px;
     margin: auto;
+    background-color:#005f4a;
 }
 .menu .product .productLeft .more a {
-    /* width: 192px; */
+    width: 192px;
+    margin: 0 auto;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ccc;
     display: block;
+    color: #fff;
+    font-size:16px;
 }
 .menu .product .productLeft .more a  img{
     width: 192px;
@@ -159,6 +173,7 @@ a{
 .menu .productRight ul li img{
     width: 238px;
     height: 186px;
+    display: block;
     overflow: hidden;
 
 }
@@ -207,10 +222,12 @@ a{
 
 /* 左下部分 */
 .content .aboutUs .bottom{
-    font-size: 14px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 20px;   
+}
+.content .aboutUs .bottom p{
     color: #fff;
+    font-size: 14px;
     line-height: 26px;
 }
 .content .aboutUs .bottom img{
@@ -388,7 +405,7 @@ a{
     font-weight: 700;
 }
 
-.news_message .news_message_right .news_message_right_content{
+.news_message .news_message_right .news_message_right_content p{
     font-size: 14px;
     margin-top: 15px;
     line-height: 24px;
@@ -421,6 +438,7 @@ a{
     margin: 0 auto;
     margin-top: 30px;
     line-height: 30px;
+    margin-bottom: 20px;
 }
 .link h2{
     display: inline-block;
