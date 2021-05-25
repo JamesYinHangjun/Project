@@ -134,7 +134,6 @@ a{
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
-    margin: auto;
     background-color:#005f4a;
 }
 .menu .product .productLeft .more a {
@@ -229,6 +228,8 @@ a{
     color: #fff;
     font-size: 14px;
     line-height: 26px;
+    float: left;
+    width: 432px;
 }
 .content .aboutUs .bottom img{
     float: left;
@@ -497,9 +498,11 @@ a{
     background-size: 115px;
     height: 115px;
     line-height: 30px;
+    padding-left: 135px;
+}
+.footer .main .footer_right p{
     color: #fff;
     font-size: 16px;
-    padding-left: 135px;
 }
 .footer .main .footer_right span {
     color: #fff;
